@@ -1,0 +1,15 @@
+proj_name: Chest_Segmentation
+exp_name: '002_'
+
+dataframe_dir: D:\Course_work\data\generated\df_contours
+checkpoints_dir: D:\Course_work\Checkpoints
+
+n_epochs: 10
+batch_size: 4
+accelerator: 'gpu'
+device: 0
+seed: 0
+n_workers: 15
+
+monitor_mode: 'min'
+metric: bce
